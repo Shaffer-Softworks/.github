@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a bug in a Shaffer Softworks project
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please open this issue on the **specific repository** where the bug occurs.
+        If you opened this on the `.github` repo by mistake, close it and reopen on the correct project repo.
+
+  - type: input
+    id: project
+    attributes:
+      label: Project / repository
+      description: Which repo is affected?
+      placeholder: e.g. hyperhdr-ha, AccuWeather, Android-Management
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Home Assistant, integration, OS, or other relevant version info
+      placeholder: e.g. HA 2025.5, integration 1.2.0
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log output (redact secrets)
+      render: shell
+    validations:
+      required: false

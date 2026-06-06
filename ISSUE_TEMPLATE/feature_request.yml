@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest an enhancement for a Shaffer Softworks project
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests should be opened on the **specific repository** where the change would live.
+        Use this template if you are filing org-wide feedback or are unsure which repo to use.
+
+  - type: input
+    id: project
+    attributes:
+      label: Project / repository
+      description: Which repo would this feature belong in?
+      placeholder: e.g. GlobalCache, WebRTC-signaling-server
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What problem does this solve? What are you trying to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like this to work?
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false

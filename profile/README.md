@@ -19,6 +19,22 @@ Current focus includes Kotlin and Jetpack Compose on Android, Home Assistant cus
 
 ---
 
+## Quick install (HACS)
+
+Most Home Assistant integrations install via [HACS](https://hacs.xyz/). Add a custom repository, then download and restart Home Assistant.
+
+| Integration | Add to HACS |
+| --- | --- |
+| [hyperhdr-ha](https://github.com/Shaffer-Softworks/hyperhdr-ha) | [Open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Shaffer-Softworks&repository=hyperhdr-ha&category=integration) |
+| [AccuWeather](https://github.com/Shaffer-Softworks/AccuWeather) | [Open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Shaffer-Softworks&repository=AccuWeather&category=integration) |
+| [Android-Management](https://github.com/Shaffer-Softworks/Android-Management) | [Open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Shaffer-Softworks&repository=Android-Management&category=integration) |
+| [Biamp-Tesira](https://github.com/Shaffer-Softworks/Biamp-Tesira) | [Open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Shaffer-Softworks&repository=Biamp-Tesira&category=integration) |
+| [GlobalCache](https://github.com/Shaffer-Softworks/GlobalCache) | [Open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Shaffer-Softworks&repository=GlobalCache&category=integration) |
+| [Openobserve](https://github.com/Shaffer-Softworks/Openobserve) | [Open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Shaffer-Softworks&repository=Openobserve&category=integration) |
+| [Tripp-light](https://github.com/Shaffer-Softworks/Tripp-light) | [Open in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=Shaffer-Softworks&repository=Tripp-light&category=integration) |
+
+---
+
 ## Featured projects
 
 | Project | Description | Stars |
@@ -82,6 +98,10 @@ Custom components and HACS integrations for Home Assistant.
 ## Contributing
 
 Issues, pull requests, and feedback are welcome on any public repository. If you use one of these projects in your setup, a star on GitHub helps others discover it.
+
+- [Contributing guide](https://github.com/Shaffer-Softworks/.github/blob/main/CONTRIBUTING.md)
+- [Security policy](https://github.com/Shaffer-Softworks/.github/blob/main/SECURITY.md)
+- Found a bug? Open an issue on the relevant repo with version info and logs.
 
 [**View all repositories →**](https://github.com/orgs/Shaffer-Softworks/repositories)
 
