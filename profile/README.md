@@ -2,7 +2,7 @@
 
 **Android · Home Assistant · Open Source**
 
-Software development and open source projects by [Michael Shaffer](https://shaffersoftworks.tech) — Senior Android Engineer, Home Assistant integrations, and embedded systems.
+Software development and open source projects by [Michael Shaffer](https://shaffersoftworks.tech) —  Android Engineer, Home Assistant integrations, and embedded systems.
 
 [![Website](https://img.shields.io/badge/website-shaffersoftworks.tech-0ea5e9?style=flat-square)](https://shaffersoftworks.tech)
 [![GitHub](https://img.shields.io/badge/GitHub-Shaffer--Softworks-181717?style=flat-square&logo=github)](https://github.com/Shaffer-Softworks)
